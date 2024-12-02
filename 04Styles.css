@@ -1,0 +1,89 @@
+body {
+color: white;
+background-image: url('04BG.png');
+background-repeat: no-repeat;
+background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.server-type {
+  width: 100px;
+}
+
+.header {
+  background: linear-gradient(#3F7637, black);
+  padding: 10px 0;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.content {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+img {
+  width: 135px;
+  height: auto;
+}
+
+.play-btn {
+  display: inline-block;
+  background-color: #3F7637;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.play-btn:hover {
+  background-color: #2C5727;
+}
+  .container {
+        display: flex;
+    }
+
+    .paragraph {
+        flex: 1;
+        margin: 10px;
+    }
+   .containerimg {
+        text-align: center;
+    }
+
+    .containerimg img {
+width:300px;
+height:auto;
+        display: block;
+        margin: 0 auto;
+    }
+  .containertext {
+        text-align: center;
+        margin-top: 50px; 
+    }
+
+    .main-heading {
+        font-size: 24px; 
+        font-weight: bold; 
+    }
+
+    .sub-heading {
+        font-size: 16px; 
+    }

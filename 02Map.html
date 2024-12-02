@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Azerotm map</title>
+<style>
+.custom-link {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    body {
+        background: #c6a589 ;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 300px; 
+        height: 100%;
+        background-color: #27120d;
+        color: #f0ddd3; 
+        padding-top: 20px;
+        overflow-y: auto; 
+    }
+    .sidebar h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #f0ddd3;
+    }
+    .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .sidebar ul li {
+        padding: 10px;
+        text-align: center;
+        transition: color 0.3s; 
+    }
+    .sidebar ul li:hover {
+        color: #ab7455;
+        outline: 2px solid #ebd4c2; 
+        outline-offset: 5px; 
+        cursor: pointer;
+    }
+    
+    .image-container {
+        margin-left: 380px;
+        max-width: calc(100% - 220px); 
+        overflow: hidden;
+    }
+    .image-container img {
+        max-width: 95%; 
+        height: auto; 
+    }
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+    <h1>Карта мира</h1>
+    <ul>
+        <li><span class="custom-link" onclick="window.location.href='03World.html'">Калимдор</span></li>
+        <li><span class="custom-link" onclick="window.location.href='03World.html#panda'">Пандария</span></li>
+        <li><span class="custom-link" onclick="window.location.href='03World.html#zan'">Зандарал</span></li>
+        <li><span class="custom-link" onclick="window.location.href='03World.html#KT'">Кул Тирас</span></li>
+        <li><span class="custom-link" onclick="window.location.href='03World.html#bi'">Поломанные острова</span></li>
+        <li><span class="custom-link" onclick="window.location.href='03World.html#ke'">Кезан</span></li>
+        <li><span class="custom-link" onclick="window.location.href='03World.html#tel'">Телябим</span></li>
+        <li><span class="custom-link" onclick="window.location.href='03World.html#teld'">Телдрасил</span></li>
+        <li><span class="custom-link" onclick="window.location.href='03World.html#bk'">Кровавый остров</span></li> 
+        <li><span class="custom-link" onclick="window.location.href='03World.html#dk'">Драконий Остров</span></li>
+        <li><span class="custom-link" onclick="window.location.href='03World.html#north'">Нортренд</span></li>
+        <li><span class="custom-link" onclick="window.location.href='03World.html#VK'">Восточные королевства</span>
+    </ul>
+</div>
+
+<div class="image-container">
+    <img src="02map.jpg" alt="Azeroth"> 
+</div>
+
+</body>
+</html>
